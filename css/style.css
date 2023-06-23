@@ -1,0 +1,66 @@
+@font-face {
+    font-family: easports;
+    src: url("/fonts/easports.ttf");
+}
+
+@font-face {
+    font-family: firstcoffee;
+    src: url("/fonts/firstcoffee.ttf");
+}
+
+ body { 
+    /* background: #4e54c8;
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
+    background: linear-gradient(to right, #8f94fb, #4e54c8); */
+    background-color: #121212;
+    overflow: hidden;
+}
+
+
+.titel {
+    text-align: center;
+    font-size: 60px;
+    font-family: firstcoffee;
+    src: url("/fonts/firstcoffee.ttf");
+    color: white;
+}
+
+
+
+.grid-container {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 400px;
+    width: 400px;
+    margin-left: 710px;
+}
+
+.footer {
+    float: left;
+    text-align: left;
+    font-family: easports;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+.grid-item {
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 30px;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 130px;
+}
+
+.vs {
+    font-size: 10px;
+    cursor: grab;
+    color: white;
+}
+
